@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cube.QuickSocket.Sample", "Cube.QuickSocket.Sample\Cube.QuickSocket.Sample.csproj", "{BF79E9D0-59CB-4136-8DD2-14262E72082C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube.QuickSocket", "Cube.QuickSocket\Cube.QuickSocket.csproj", "{543DB35C-E679-402B-A7D9-9EE580EE28EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bedrock.Framework", "BedrockFramework\src\Bedrock.Framework\Bedrock.Framework.csproj", "{46AC7F18-B871-4D55-889F-9711D31BE0AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bedrock.Framework.Experimental", "BedrockFramework\src\Bedrock.Framework.Experimental\Bedrock.Framework.Experimental.csproj", "{70547D72-B0D5-4361-AB23-020671DFC295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApplication", "BedrockFramework\samples\ClientApplication\ClientApplication.csproj", "{1BF823C4-CA1B-4545-BFD6-A78907B40E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerApplication", "BedrockFramework\samples\ServerApplication\ServerApplication.csproj", "{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bedrock", "bedrock", "{6F8B87C2-DA99-49F0-A878-B72866A3A0A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bedrock.Framework.Benchmarks", "BedrockFramework\tests\Bedrock.Framework.Benchmarks\Bedrock.Framework.Benchmarks.csproj", "{D187301C-F00E-4FD9-8C9C-DD7B5C656904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bedrock.Framework.Tests", "BedrockFramework\tests\Bedrock.Framework.Tests\Bedrock.Framework.Tests.csproj", "{8E0E4584-197B-480A-9A8B-1E60C258DA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube.QuickSocket.Tests", "Cube.QuickSocket.Tests\Cube.QuickSocket.Tests.csproj", "{246F18EA-686F-46B0-8544-57898D45A243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF79E9D0-59CB-4136-8DD2-14262E72082C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF79E9D0-59CB-4136-8DD2-14262E72082C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF79E9D0-59CB-4136-8DD2-14262E72082C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF79E9D0-59CB-4136-8DD2-14262E72082C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543DB35C-E679-402B-A7D9-9EE580EE28EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543DB35C-E679-402B-A7D9-9EE580EE28EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543DB35C-E679-402B-A7D9-9EE580EE28EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543DB35C-E679-402B-A7D9-9EE580EE28EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AC7F18-B871-4D55-889F-9711D31BE0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AC7F18-B871-4D55-889F-9711D31BE0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AC7F18-B871-4D55-889F-9711D31BE0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AC7F18-B871-4D55-889F-9711D31BE0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70547D72-B0D5-4361-AB23-020671DFC295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70547D72-B0D5-4361-AB23-020671DFC295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70547D72-B0D5-4361-AB23-020671DFC295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70547D72-B0D5-4361-AB23-020671DFC295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF823C4-CA1B-4545-BFD6-A78907B40E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF823C4-CA1B-4545-BFD6-A78907B40E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF823C4-CA1B-4545-BFD6-A78907B40E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF823C4-CA1B-4545-BFD6-A78907B40E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D187301C-F00E-4FD9-8C9C-DD7B5C656904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D187301C-F00E-4FD9-8C9C-DD7B5C656904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D187301C-F00E-4FD9-8C9C-DD7B5C656904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D187301C-F00E-4FD9-8C9C-DD7B5C656904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0E4584-197B-480A-9A8B-1E60C258DA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0E4584-197B-480A-9A8B-1E60C258DA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0E4584-197B-480A-9A8B-1E60C258DA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0E4584-197B-480A-9A8B-1E60C258DA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246F18EA-686F-46B0-8544-57898D45A243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246F18EA-686F-46B0-8544-57898D45A243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246F18EA-686F-46B0-8544-57898D45A243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246F18EA-686F-46B0-8544-57898D45A243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46AC7F18-B871-4D55-889F-9711D31BE0AD} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+		{70547D72-B0D5-4361-AB23-020671DFC295} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+		{1BF823C4-CA1B-4545-BFD6-A78907B40E00} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+		{3CF9A6BC-11B9-470A-B238-EDBC175D0B6C} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+		{D187301C-F00E-4FD9-8C9C-DD7B5C656904} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+		{8E0E4584-197B-480A-9A8B-1E60C258DA70} = {6F8B87C2-DA99-49F0-A878-B72866A3A0A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3142B610-A9EB-45B3-8222-CC1924A2A628}
+	EndGlobalSection
+EndGlobal
